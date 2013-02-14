@@ -1,0 +1,3 @@
+[submodule "jasminetd"]
+	path = jasminetd
+	url = git://github.com/codeviking/jasmintd.git
