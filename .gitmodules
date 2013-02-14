@@ -1,3 +1,3 @@
-[submodule "jasminetd"]
-	path = jasminetd
+[submodule "jasmintd"]
+	path = jasmintd
 	url = git://github.com/codeviking/jasmintd.git
