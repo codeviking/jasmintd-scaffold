@@ -8,7 +8,7 @@ This project uses the [jasmintd](http://github.com/codeviking/jasmintd) adapter 
 
 Download and extract the latest version:
 
-* [jasmintd-scaffold v1.0.0](https://github.com/codeviking/jasmintd-scaffold/zipball/v1.0.0)
+* [jasmintd-scaffold v1.0.0](https://github.com/codeviking/jasmintd-scaffold/archive/v1.0.0.tar.gz)
 
 Verify that you have java installed by typing the following command into your terminal:
 
