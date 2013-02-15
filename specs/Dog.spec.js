@@ -13,7 +13,7 @@ describe('Dog', [ 'Dog' ],  function() {
         it('barks', function(Dog) {
             expect(new Dog('Lucy', 'Terrier').bark()).toEqual('WOOF!');
         });
-        
+
     });
 
 });
