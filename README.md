@@ -51,12 +51,12 @@ Let's say the Router API has two functions, `register` and `unregster`.  We'd th
 describe('Router', [ 'lib/Router' ], function() {
 	describe('.register'), function() {
 		it('is a function', function(Router) {
-			expect(typeof Router.register).toEqual('function);
+			expect(typeof Router.register).toEqual('function');
 		});
 	});
 	describe('.unregister'), function() {
 		it('is a function', function(Router) {
-			expect(typeof Router.unregister).toEqual('function);
+			expect(typeof Router.unregister).toEqual('function');
 		});
 	});
 });
@@ -70,12 +70,12 @@ You can specify multiple dependencies by adding them to the array of dependencie
 describe('Router', [ 'lib/Router', 'lib/Url' ], function() {
 	describe('.register'), function() {
 		it('is a function', function(Router, Url) {
-			expect(typeof Router.register).toEqual('function);
+			expect(typeof Router.register).toEqual('function');
 		});
 	});
 	describe('.unregister'), function() {
 		it('is a function', function(Router, Url) {
-			expect(typeof Router.unregister).toEqual('function);
+			expect(typeof Router.unregister).toEqual('function');
 		});
 	});
 });
@@ -87,12 +87,12 @@ You can also define nested dependencies to be loaded only for the nested test bl
 describe('Router', [ 'lib/Router' ], function() {
 	describe('.register'), [ 'lib/Url' ], function() {
 		it('is a function', function(Router, Url) {
-			expect(typeof Router.register).toEqual('function);
+			expect(typeof Router.register).toEqual('function');
 		});
 	});
 	describe('.unregister'), function(Router) {
 		it('is a function', function() {
-			expect(typeof Router.unregister).toEqual('function);
+			expect(typeof Router.unregister).toEqual('function');
 		});
 	});
 });
