@@ -90,7 +90,7 @@ describe('Router', [ 'lib/Router' ], function() {
 			expect(typeof Router.register).toEqual('function');
 		});
 	});
-	describe('.unregister'), function() {
+	describe('.unregister', function() {
 		it('is a function', function(Router) {
 			expect(typeof Router.unregister).toEqual('function');
 		});
