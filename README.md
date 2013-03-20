@@ -85,13 +85,13 @@ You can also define nested dependencies to be loaded only for the nested test bl
 
 ```
 describe('Router', [ 'lib/Router' ], function() {
-	describe('.register'), [ 'lib/Url' ], function() {
+	describe('.register', [ 'lib/Url' ], function() {
 		it('is a function', function(Router, Url) {
 			expect(typeof Router.register).toEqual('function');
 		});
 	});
-	describe('.unregister'), function(Router) {
-		it('is a function', function() {
+	describe('.unregister'), function() {
+		it('is a function', function(Router) {
 			expect(typeof Router.unregister).toEqual('function');
 		});
 	});
