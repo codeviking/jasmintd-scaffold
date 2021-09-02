@@ -19,7 +19,7 @@ which java
 Run the sample specs to make sure things work (replace the browser path with the path to the browser you'd like to use to execute the tests):
 
 ```
-./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 ```
 
 Start writing your project and Jasmine based tests.
@@ -109,19 +109,19 @@ To run all test suites, simply execute the `run_specs` script with the path to t
 To run a specific suite, specified via a `describe` statement, simply pass in the suite name after the browser path.  For instance, we could run all of the `Router` tests describe above via:
 
 ```
-./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome Router
+./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome Router
 ```
 
 If we only wanted to run the `Router.register` specs we'd use:
 
 ```
-./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome Router.register
+./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome Router.register
 ```
 
 We can even add multiple, comma-delimited specs to execute:
 
 ```
-./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome Router.register,Router.unregister
+./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome Router.register,Router.unregister
 ```
 
 That's it, happy testing!
