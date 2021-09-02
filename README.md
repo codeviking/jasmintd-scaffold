@@ -103,7 +103,7 @@ describe('Router', [ 'lib/Router' ], function() {
 To run all test suites, simply execute the `run_specs` script with the path to the browser of your choice:
 
 ```
-./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+./run_specs /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 ```
 
 To run a specific suite, specified via a `describe` statement, simply pass in the suite name after the browser path.  For instance, we could run all of the `Router` tests describe above via:
